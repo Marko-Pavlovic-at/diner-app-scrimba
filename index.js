@@ -12,7 +12,7 @@ function render() {
     <img src = "${item.path}">
     <div class = "item-text">
     <h2>${item.name}</h2>
-    <p>${item.ingredients}</p>
+    <p class = "ing-text">${item.ingredients}</p>
     <p>${item.price}$</p>
 
     </div>
