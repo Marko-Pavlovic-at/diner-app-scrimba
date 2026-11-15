@@ -13,5 +13,5 @@
 - put the image path from each item into the array in data.js DONE
 - create a render function and use map to render the menu items DONE
 - stlye the menu items DONE
-- style the button with a hover effect
+- style the button with a hover effect DONE
 - stlye the items text
