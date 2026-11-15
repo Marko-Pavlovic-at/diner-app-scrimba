@@ -10,6 +10,6 @@
 # Main Sceleton
 
 - create the heading wiht the hamburger image from the design doc DONE
-- put the image path from each item into the array in data.js
+- put the image path from each item into the array in data.js DONE
 - create a render function and use map to render the menu items
 - stlye the menu items
