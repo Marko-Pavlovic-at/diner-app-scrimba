@@ -41,6 +41,9 @@ totalPriceTextEl.textContent = `Total price:`;
 let totalPrice = 0; //ordered.reduce((total, current) => total + current.price, 0);
 const totalPriceDiv = document.createElement("div");
 totalPriceDiv.className = "total-box";
+const completeOrderBtn = document.createElement("button");
+completeOrderBtn.className = "complete-btn";
+completeOrderBtn.textContent = "Complete order";
 function renderOrder() {
   order.innerHTML = `<h2>Your Order</h2>`;
   ordered.forEach((item) => {
@@ -58,7 +61,7 @@ function renderOrder() {
   totalPriceEl.textContent = totalPrice + "$";
   totalPriceDiv.append(totalPriceTextEl, totalPriceEl);
 
-  dinerBody.append(order, totalPriceDiv);
+  dinerBody.append(order, totalPriceDiv, completeOrderBtn);
 }
 
 render();

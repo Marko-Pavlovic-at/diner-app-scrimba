@@ -18,9 +18,9 @@
 
 ## Add Button Logic
 
-- when the button is clicked a new Section should be rendered your order
-- the section should contain a your order button
-- it should contain text on the left from the ordered item and a light grey remove button and on the right it should display the price
-- after that a border bottom in black
-- after that a total price
-- at the buttom a green sqaured button with white text complete order
+- when the button is clicked a new Section should be rendered your order DONE
+- the section should contain a your order button DONE
+- it should contain text on the left from the ordered item and a light grey remove button and on the right it should display the price DONE
+- after that a border bottom in black DONE
+- after that a total price DONE
+- at the buttom a green sqaured button with white text complete order DONE
