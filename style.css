@@ -59,3 +59,23 @@ li {
 .ing-text {
   color: rgb(127, 127, 127);
 }
+
+.order-section {
+  text-align: center;
+  border-bottom: 3px solid black;
+}
+
+.order-box {
+  display: flex;
+  justify-content: space-between;
+}
+.left-content {
+  display: flex;
+  gap: 1rem;
+}
+
+.rem-btn {
+  border: none;
+  background-color: white;
+  color: rgb(159, 159, 159);
+}
