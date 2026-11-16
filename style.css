@@ -79,3 +79,8 @@ li {
   background-color: white;
   color: rgb(159, 159, 159);
 }
+
+.total-box {
+  display: flex;
+  justify-content: space-between;
+}

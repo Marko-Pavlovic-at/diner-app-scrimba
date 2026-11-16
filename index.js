@@ -35,6 +35,12 @@ function render() {
 }
 const order = document.createElement("section");
 order.className = "order-section";
+const totalPriceTextEl = document.createElement("p");
+const totalPriceEl = document.createElement("p");
+totalPriceTextEl.textContent = `Total price:`;
+let totalPrice = 0; //ordered.reduce((total, current) => total + current.price, 0);
+const totalPriceDiv = document.createElement("div");
+totalPriceDiv.className = "total-box";
 function renderOrder() {
   order.innerHTML = `<h2>Your Order</h2>`;
   ordered.forEach((item) => {
@@ -48,7 +54,11 @@ function renderOrder() {
     </div>
     `;
   });
-  dinerBody.append(order);
+  totalPrice = ordered.reduce((total, current) => total + current.price, 0);
+  totalPriceEl.textContent = totalPrice + "$";
+  totalPriceDiv.append(totalPriceTextEl, totalPriceEl);
+
+  dinerBody.append(order, totalPriceDiv);
 }
 
 render();
